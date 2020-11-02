@@ -18,6 +18,8 @@ namespace DGV_DEMO_1
         private void BtnLoadData_Click(object sender, EventArgs e)
         {
             StreamReader inputFile;
+            // Edit the following path according to your environment
+            openFileDialog.InitialDirectory = "C:\\Users\\Jose\\Desktop\\App_Data";
             // Select input file
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
